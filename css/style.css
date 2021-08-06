@@ -3284,6 +3284,25 @@ nav .sub_down> .topdown3> li:nth-child(1){
 
 
 
+.at7_scrollTop{
+    position:fixed;
+    top:80%; right:50px;
+    border:0px solid black;
+    border-radius:100%;
+    width:50px; height:50px;
+    text-align: center;
+    line-height: 50px;
+    background:white;
+    animation: at7_scrollTop 3s infinite;
+    cursor:pointer;
+}
+@keyframes at7_scrollTop {
+    0%{top:80%;}
+    50%{top:78%;}
+    100%{top:80%;}
+} 
+
+
 
 
 /*-----------아티클 8번 아이오페 랩 소개-----------------------------*/
