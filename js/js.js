@@ -592,7 +592,11 @@ $(function(){
         
     });
     
-    
+    // ------------아티클 7번 Top버튼 클릭시 상단으로 화면 이동---------
+    $(".at7_scrollTop").click(function(){
+        $("html, body").animate({"scrollTop":"0"},10);
+    })
+
     
     //-------------아티클 8번 왼쪽 숫자 클릭시 사진 변경---------------
     $(".at8_tool2_box3> li").on("click", function() {
